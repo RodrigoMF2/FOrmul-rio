@@ -1,0 +1,37 @@
+.filtro-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 0.5rem;
+    margin: 1rem 0;
+  
+    background-color: #4b4b4b;
+  }
+  
+  .filtro-label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .filtro-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444; 
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .filtro-select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .filtro-select option {
+    background-color: #fff; 
+    color: #000; 
+  }
+  
